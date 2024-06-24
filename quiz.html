@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz on Achievements and Rewards</title>
+    <link rel="stylesheet" href="quiz.css">
+</head>
+<body>
+    <div class="container">
+        <div class="sidebar">
+            <h2>Games</h2>
+            <ul>
+                <li><a href="#">Spin the Wheel</a></li>
+                <li><a href="#">Quiz</a></li>
+                <li><a href="#">Style Matching Game</a></li>
+                <li><a href="#">Trend Explorer Challenge</a></li>
+                <li><a href="#">Fashion Trivia</a></li>
+            </ul>
+        </div>
+        <div id="quiz">
+            <h2>Quiz on Achievements and Rewards</h2>
+            <form id="quiz-form">
+                <div class="question">
+                    <p>1. What action earns you the 'Trend Explorer' badge?</p>
+                    <label><input type="radio" name="q1" value="a"> Spinning the wheel</label>
+                    <label><input type="radio" name="q1" value="b"> Exploring new trends</label>
+                    <label><input type="radio" name="q1" value="c"> Sharing style boards</label>
+                    <label><input type="radio" name="q1" value="d"> Participating in discussions</label>
+                </div>
+                <div class="question">
+                    <p>2. How can users earn the 'Style Board Sharer' badge?</p>
+                    <label><input type="radio" name="q2" value="a"> By sharing style boards</label>
+                    <label><input type="radio" name="q2" value="b"> By spinning the wheel</label>
+                    <label><input type="radio" name="q2" value="c"> By exploring new trends</label>
+                    <label><input type="radio" name="q2" value="d"> By participating in discussions</label>
+                </div>
+                <div class="question">
+                    <p>3. Which activity helps you participate in discussions?</p>
+                    <label><input type="radio" name="q3" value="a"> Spinning the wheel</label>
+                    <label><input type="radio" name="q3" value="b"> Exploring new trends</label>
+                    <label><input type="radio" name="q3" value="c"> Sharing style boards</label>
+                    <label><input type="radio" name="q3" value="d"> Joining the discussion forums</label>
+                </div>
+                <div class="question">
+                    <p>4. What action can earn you daily rewards?</p>
+                    <label><input type="radio" name="q4" value="a"> Spinning the wheel on daily check-in</label>
+                    <label><input type="radio" name="q4" value="b"> Exploring new trends</label>
+                    <label><input type="radio" name="q4" value="c"> Sharing style boards</label>
+                    <label><input type="radio" name="q4" value="d"> Participating in discussions</label>
+                </div>
+                <button type="button" id="submit-btn">Submit</button>
+            </form>
+        </div>
+
+        <div id="result">
+            <p id="score">Your score: <span id="score-value">0</span></p>
+            <p id="feedback"></p>
+        </div>
+    </div>
+
+    <script src="s.js"></script>
+</body>
+</html>
